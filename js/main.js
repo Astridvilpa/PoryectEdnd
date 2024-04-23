@@ -26,3 +26,28 @@ onOff.addEventListener("click", () => {
     }
   });
 
+// Sección de canales:Se seleccionan todos los botones de canal y se agrega un evento de clic a cada uno.
+// Al hacer clic en un canal, se muestra su nombre y se cambia la imagen del televisor al canal seleccionado.
+// Se programa un temporizador para ocultar la información de fecha y el nombre del canal después de 3 segundos.
+const arrayMandoInf = document.querySelectorAll(".mandoInf .chanBtn");
+arrayMandoInf.forEach((channel) => {
+  channel.addEventListener("click", (e) => {
+    const channelName = e.target.id;
+    selectedChannel = channelName; // Almacena el nombre del canal seleccionado
+    infoDate.style.display = "inline-block";
+    infoChannel.style.display = "inline-block";
+
+    document.getElementById("channelName").innerHTML = channelName; // Muestra el nombre del canal
+
+    setTimeout(hideInfoDate, 3000);
+    setTimeout(hideInfoChannel, 3000);
+
+    if (tvStatus) {
+      showInfo(Date);
+      changeChannelImage(channelName); // Cambia la imagen del televisor al canal seleccionado
+    } else {
+      infoDate.style.display = "none";
+      infoChannel.style.display = "none";
+    }
+  });
+});
