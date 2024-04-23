@@ -109,3 +109,25 @@ function changeChannelImage(channelName) {
     }
   }
 
+// Manejador de clic para los canales de redes: este código  actualiza la interfaz de usuario en consecuencia y realiza acciones adicionales dependiendo del estado de la televisión.
+const arrayRedes = document.querySelectorAll(".redes .chanBtn");
+arrayRedes.forEach((channel) => {
+  channel.addEventListener("click", (e) => {
+    const channelName = e.target.id;
+    selectedChannel = channelName; // Almacena el nombre del canal seleccionado
+    infoDate.style.display = "inline-block";
+    infoChannel.style.display = "inline-block";
+
+    document.getElementById("channelName").innerHTML = channelName; // Muestra el nombre del canal
+    setTimeout(hideInfoDate, 3000);
+    setTimeout(hideInfoChannel, 3000);
+
+    if (tvStatus) {
+      showInfo(Date);
+      changeChannelImage(channelName); // Cambia la imagen del televisor al canal seleccionado
+    } else {
+      infoDate.style.display = "none";
+      infoChannel.style.display = "none";
+    }
+  });
+});
