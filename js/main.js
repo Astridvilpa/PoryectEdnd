@@ -33,21 +33,38 @@ const arrayMandoInf = document.querySelectorAll(".mandoInf .chanBtn");
 arrayMandoInf.forEach((channel) => {
   channel.addEventListener("click", (e) => {
     const channelName = e.target.id;
-    selectedChannel = channelName; // Almacena el nombre del canal seleccionado
+    selectedChannel = channelName; 
     infoDate.style.display = "inline-block";
     infoChannel.style.display = "inline-block";
 
-    document.getElementById("channelName").innerHTML = channelName; // Muestra el nombre del canal
+    document.getElementById("channelName").innerHTML = channelName; 
 
     setTimeout(hideInfoDate, 3000);
     setTimeout(hideInfoChannel, 3000);
 
     if (tvStatus) {
       showInfo(Date);
-      changeChannelImage(channelName); // Cambia la imagen del televisor al canal seleccionado
+      changeChannelImage(channelName); 
     } else {
       infoDate.style.display = "none";
       infoChannel.style.display = "none";
     }
   });
 });
+
+
+// Función para fecha y hora:Se utiliza función showInfo() que va a encarga de mostrar la fecha y la hora actual en un elemento del DOM.
+function showInfo() {
+    let hour = document.getElementById("dateHour");
+    setInterval(function () {
+      let data = new Date();
+      return (hour.innerHTML =
+        data.getDate() +
+        "/" +
+        (data.getMonth() + 1) +  // se usa +1 para obtener el número de mes en formato de 1 a 12 en lugar de 0 a 11.
+        "/" +
+        data.getFullYear() +
+        "  " +
+        data.toLocaleTimeString());
+    });
+  }
