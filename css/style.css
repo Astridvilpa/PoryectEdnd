@@ -142,3 +142,28 @@ body {
     width: 1.5em;
     box-shadow: 0px 0px 0px 0px rgba(112,111,112,1);
  }
+
+ /* Seccion que separa una linea de otra  */
+ .sectionSep {
+    height: 0.3em;
+    color: white;
+ }
+
+ /* sección de los canales */
+
+ .mandoInf {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em 1em;
+ }
+
+ /* Sección para volumen y cambio de canal  */
+
+ .mandoMed {
+    
+ }
