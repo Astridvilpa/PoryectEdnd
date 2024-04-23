@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cuerpo de proyecto  */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/OIP.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Creacion del Tv  */
+#princ {
+  display: grid;
+  max-width: 85vw;
+  grid-template-columns: 4fr 1fr;
+  gap: 10%;
+  margin-inline: auto;
+  container-type: inline-size;
+  margin-top: 2em;
+}
+
+#pantalla {
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 4em;
+    background-color: black;
+    position: relative;
+}
+
+/* Marca */
+
+#marca {
+    position: absolute;
+    top: 93.75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
