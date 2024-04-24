@@ -304,3 +304,10 @@ body {
   background-size: 100% 100%;
   background-position: center;
 }
+
+#dateHour,
+#channelName {
+  color: white; 
+  font-size: 26px; 
+  
+}
