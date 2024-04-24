@@ -110,7 +110,7 @@ body {
   padding: 0;
   gap: 0.2em;
   width: 12em;
-  height: 42em;
+  height: 43em;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ body {
   align-items: center;
   border: 0.2em solid black;
   background-color: rgb(50, 50, 50);
-  border-radius: 1em 1em 5em 5em;
+  border-radius: 1em 1em 1em 1em;
 }
 
 #controller {
