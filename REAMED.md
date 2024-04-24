@@ -1,4 +1,4 @@
-# <img  scr="../img/flogo.png" width ="10"/>  Tv Interactiva <img scr="../img/logo.png" width ="10"/>
+# <img src="./img/logo.jpg" alt="logo" width="40">  Tv Interactiva <img src="./img/logo.jpg" alt="logo" width="40">
 
 
 <img align="right" scr="../img/fotoTv.png" width ="150"/>
