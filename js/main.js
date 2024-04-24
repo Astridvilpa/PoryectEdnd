@@ -140,7 +140,13 @@ const cambioCanales = (button) => {
   const screen = document.getElementById("sizeTv");
   // Verificar si el televisor está encendido
   if (!tvStatus) {
-    return; 
+    return; // 
+  }
+
+  if (button === "btnVolDown") {
+    canalActual = (canalActual + 1) % 10; // Incrementar el canal actual y asegurarse de que no exceda el límite
+  } else if (button === "btnChDown") {
+    canalActual = (canalActual - 1 + 10) % 10; // Decrementar el canal actual y asegurarse de que no sea negativo
   }
 
   const channelName = Object.keys(channelImages)[canalActual];
@@ -151,5 +157,5 @@ const cambioCanales = (button) => {
 // cambio de canal hacia arriba
 btnVolDown.addEventListener("click", () => cambioCanales("btnVolDown"));
 
-// cambio de canal hacia abajo
+//  cambio de canal hacia abajo
 btnChDown.addEventListener("click", () => cambioCanales("btnChDown"));
