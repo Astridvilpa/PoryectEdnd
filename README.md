@@ -10,8 +10,8 @@ El proyecto tendra los siguiente:
 
 - Una pantalla de inicio que simule la interfaz de bienvenida.
 
-<img align="right" src="./img/panBlack.jpg" alt="panBlack" width="200">
-<img align="left" src="./img/panOn.jpg" alt="panOn" width="200">
+<img  src="./img/panBlack.jpg" alt="panBlack" width="200">
+<img  src="./img/panOn.jpg" alt="panOn" width="200">
 
 
 - Un mando a distancia virtual con la inclusión de cambiar de canales, ajustar volumen y funciones adicionale.
@@ -29,7 +29,7 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) : Para la estructura y el contenido de la página.
 
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) : Para el diseño y la presentación visual de la página.
-- [![JavaScript]](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript) :Para la parte dinamica del proyecto.
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript) :Para la parte dinamica del proyecto.
 
 
 ## Funciones
