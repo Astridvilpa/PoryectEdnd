@@ -1,7 +1,7 @@
 # <img src="./img/logo.jpg" alt="logo" width="40">  Tv Interactiva <img src="./img/logo.jpg" alt="logo" width="40">
 
 <p float="right">
-  <img src="./img/fotoTv.jpg" width="300" />
+  <img src="./img/fotoTv.jpg" width="400" />
   </p>
 Este proyecto tiene como objetivo diseñar una interfaz de Tv interactiva, aplicando los conocimientos adquiridos en HTML5, CSS3 y JavaScript. El diseño constará de una pantalla con un control remoto y su funcionalidad será que simulen la interacción con una televisión real.
 
@@ -11,8 +11,8 @@ El proyecto tendra los siguiente:
 
 - Una pantalla de inicio que simule la interfaz de bienvenida.
 <p float="left">
-  <img src="./img/panBlack.jpg" width="250" />
-  <img src="./img/panOn.jpg" width="250" /> 
+  <img src="./img/panBlack.jpg" width="400" />
+  <img src="./img/panOn.jpg" width="400" /> 
 </p>
 
 
@@ -21,8 +21,8 @@ El proyecto tendra los siguiente:
 
 - Cambiar dinámicamente la informacion del canal con la imagen de fondo 
 <p float="left">
-  <img src="./img/canal1.jpg" width="250" />
-  <img src="./img/depor.jpg" width="250" /> 
+  <img src="./img/canal1.jpg" width="400" />
+  <img src="./img/depor.jpg" width="400" /> 
 </p>
 
 
@@ -37,7 +37,7 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
 ## 🌟 Funciones
 
-- Funcionalidad de encendido y apagado con el botón <img scr="./img/on3.jpg" width ="60"/>
+- Funcionalidad de encendido y apagado con el botón <p><img src="./img/on3.jpg" width="30" /></p>
 - visualización de la hora, fecha y nombre de cada canal.
 - Los botones con numeros cambian los canales mostrando un fondo diferente.
 - Se puede cambiar de canales con el + CH -.
