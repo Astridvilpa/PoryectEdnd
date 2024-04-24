@@ -10,17 +10,17 @@ El proyecto tendra los siguiente:
 
 - Una pantalla de inicio que simule la interfaz de bienvenida.
 
-<img src="./img/panBlack.jpg" alt="panBlack" width="200">
-<img src="./img/panOn.jpg" alt="panOn" width="200">
+<img src="./img/panBlack.jpg" alt="panBlack" width="150">
+<img src="./img/panOn.jpg" alt="panOn" width="150">
 
 
 - Un mando a distancia virtual con la inclusión de cambiar de canales, ajustar volumen y funciones adicionale.
-<img src="./img/control.jpg" alt="control" width="200">
+<img src="./img/control.jpg" alt="control" width="150">
 
 - Cambiar dinámicamente la informacion del canal con la imagen de fondo 
 
-<img src="./img/canal1.jpg" alt="canal1" width="200">
-<img src="./img/depor.jpg" alt="depor" width="200">
+<img src="./img/canal1.jpg" alt="canal1" width="150">
+<img src="./img/depor.jpg" alt="depor" width="150">
 
 
 ## ⌨️ Tecnologías Utilizadas ⌨️
