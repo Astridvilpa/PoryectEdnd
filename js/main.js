@@ -66,7 +66,7 @@ function showInfo() {
   });
 }
 
-//   Función para ocultar información
+//   Funciones para ocultar información
 
 // Función para ocultar la información de fecha y hora después de 3 segundos
 function hideInfoDate() {
