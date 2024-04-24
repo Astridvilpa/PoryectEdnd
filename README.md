@@ -1,7 +1,8 @@
 # <img src="./img/logo.jpg" alt="logo" width="40">  Tv Interactiva <img src="./img/logo.jpg" alt="logo" width="40">
 
-
-<img align="right" scr="./img/fotoTv.jpg" width ="250"/>
+<p float="right">
+  <img src="./img/fotoTv.jpg" width="300" />
+  </p>
 Este proyecto tiene como objetivo diseñar una interfaz de Tv interactiva, aplicando los conocimientos adquiridos en HTML5, CSS3 y JavaScript. El diseño constará de una pantalla con un control remoto y su funcionalidad será que simulen la interacción con una televisión real.
 
 ## 📑 Descripción del Proyecto 📑
@@ -19,9 +20,10 @@ El proyecto tendra los siguiente:
 <img src="./img/control.jpg" alt="control" width="200">
 
 - Cambiar dinámicamente la informacion del canal con la imagen de fondo 
-
-<img src="./img/canal1.jpg" alt="canal1" width="200">
-<img src="./img/depor.jpg" alt="depor" width="200">
+<p float="left">
+  <img src="./img/canal1.jpg" width="250" />
+  <img src="./img/depor.jpg" width="250" /> 
+</p>
 
 
 ## ⌨️ Tecnologías Utilizadas ⌨️
@@ -33,23 +35,23 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript) :Para la parte dinamica del proyecto.
 
 
-## Funciones
+## 🌟 Funciones
 
 - Funcionalidad de encendido y apagado con el botón <img scr="./img/on3.jpg" width ="60"/>
 - visualización de la hora, fecha y nombre de cada canal.
 - Los botones con numeros cambian los canales mostrando un fondo diferente.
--Se puede cambiar de canales con el + CH -.
+- Se puede cambiar de canales con el + CH -.
 
-## Cosas por realizar
+## 💬 Cosas por realizar
 
 -La funcionalidad del volumen.
 - La funcionalidad del mute.
 
-## DEMO
+## 👀 DEMO
 
 [Interaccion con la Tv ]
 
-## Autor
+## ✒️ Autor
 
 * Astrid Viloria 
 * [GitHub] (https://github.com/Astridvilpa)
