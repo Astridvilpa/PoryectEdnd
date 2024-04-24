@@ -19,8 +19,8 @@ El proyecto tendra los siguiente:
 
 - Cambiar dinámicamente la informacion del canal con la imagen de fondo 
 
-<img src="./img/canal1.jpg" alt="canal1" width="150">
-<img src="./img/depor.jpg" alt="depor" width="150">
+<img src="./img/canal1.png" alt="canal1" width="150">
+<img src="./img/depor.png" alt="depor" width="150">
 
 
 ## ⌨️ Tecnologías Utilizadas ⌨️
