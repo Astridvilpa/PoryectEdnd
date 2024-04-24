@@ -131,3 +131,25 @@ arrayRedes.forEach((channel) => {
     }
   });
 });
+
+// Cambio de canal con los botones + -
+
+// Función para cambiar el canal de televisión
+let canalActual = 0;
+const cambioCanales = (button) => {
+  const screen = document.getElementById("sizeTv");
+  // Verificar si el televisor está encendido
+  if (!tvStatus) {
+    return; 
+  }
+
+  const channelName = Object.keys(channelImages)[canalActual];
+  infoChannel.innerText = channelName;
+  changeChannelImage(channelName);
+};
+
+// cambio de canal hacia arriba
+btnVolDown.addEventListener("click", () => cambioCanales("btnVolDown"));
+
+// cambio de canal hacia abajo
+btnChDown.addEventListener("click", () => cambioCanales("btnChDown"));
