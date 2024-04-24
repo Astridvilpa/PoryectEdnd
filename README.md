@@ -1,7 +1,7 @@
 # <img src="./img/logo.jpg" alt="logo" width="40">  Tv Interactiva <img src="./img/logo.jpg" alt="logo" width="40">
 
 
-<img align="right" scr="./img/fotoTv.jpg" width ="150"/>
+<img align="right" scr="./img/fotoTv.jpg" width ="250"/>
 Este proyecto tiene como objetivo diseñar una interfaz de Tv interactiva, aplicando los conocimientos adquiridos en HTML5, CSS3 y JavaScript. El diseño constará de una pantalla con un control remoto y su funcionalidad será que simulen la interacción con una televisión real.
 
 ## 📑 Descripción del Proyecto 📑
@@ -10,8 +10,7 @@ El proyecto tendra los siguiente:
 
 - Una pantalla de inicio que simule la interfaz de bienvenida.
 
-<img  src="./img/panBlack.jpg" alt="panBlack" width="200">
-<img  src="./img/panOn.jpg" alt="panOn" width="200">
+![Imagen 1](panBlack.jpg) ![Imagen 2](panOn.jpg.jpg)
 
 
 - Un mando a distancia virtual con la inclusión de cambiar de canales, ajustar volumen y funciones adicionale.
@@ -34,7 +33,7 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
 ## Funciones
 
-- Funcionalidad de encendido y apagado con el botón <img scr="./img/on3.jpg" width ="20"/>.
+- Funcionalidad de encendido y apagado con el botón <img scr="./img/on3.jpg" width ="60"/>
 - visualización de la hora, fecha y nombre de cada canal.
 - Los botones con numeros cambian los canales mostrando un fondo diferente.
 -Se puede cambiar de canales con el + CH -.
