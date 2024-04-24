@@ -9,8 +9,10 @@ Este proyecto tiene como objetivo diseñar una interfaz de Tv interactiva, aplic
 El proyecto tendra los siguiente: 
 
 - Una pantalla de inicio que simule la interfaz de bienvenida.
-
-![Imagen 1](panBlack.jpg) ![Imagen 2](panOn.jpg.jpg)
+<p float="left">
+  <img src="./img/panBlack.jpg" width="250" />
+  <img src="./img/panOn.jpg" width="250" /> 
+</p>
 
 
 - Un mando a distancia virtual con la inclusión de cambiar de canales, ajustar volumen y funciones adicionale.
