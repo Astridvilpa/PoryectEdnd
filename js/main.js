@@ -80,21 +80,21 @@ function hideInfoChannel() {
 
 //Mapeo con los nombres de los canales y las Url de las imagenes
 const channelImages = {
-  "Noticias24": "../img/noti.gif",
+  Noticias24: "../img/24.jpg",
   "Fox Sport": "../img/2.gif",
-  "Antena3": "../img/pasa.gif",
-  "Cinemax": "../img/peli.gif",
-  "Atresplayer": "../img/tele5.gif",
-  "LaSexta": "../img/6.gif",
+  Antena3: "../img/pasa.gif",
+  Cinemax: "../img/peli.gif",
+  Atresplayer: "../img/tele5.gif",
+   LaSexta: "../img/6.gif",
   "Gol t": "../img/7.gif",
-  "Divinity": "../img/8.gif",
-  "Telemundo": "../img/9.gif",
-  "channelInfo": "../img/.png",
+  Divinity: "../img/8.gif",
+  Telemundo: "../img/9.gif",
+  channelInfo: "../img/.png",
   "Sin Signal": "../img/0.gif",
-  "netflix": "../img/netflix.gif",
-  "disney": "../img/disney.gif",
-  "prime": "../img/primeV.gif",
-  "Pluto": "../img/movi.gif",
+  netflix: "../img/netflix.gif",
+  disney: "../img/disney.gif",
+  prime: "../img/primeV.gif",
+  Pluto: "../img/movi.gif",
 };
 
 
