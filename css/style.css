@@ -110,7 +110,7 @@ body {
   padding: 0;
   gap: 0.2em;
   width: 12em;
-  height: 43em;
+  height: 38em;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -236,31 +236,6 @@ body {
   font-weight: bold;
 }
 
-/* Sección de botones en cruz */
-#btnUp {
-  background-image: url(../img/up.jpg);
-  background-size: cover;
-}
-
-#btnLeft {
-  background-image: url(../img/left.jpg);
-  background-size: cover;
-}
-
-#btnRight {
-  background-image: url(../img/rigth.jpg);
-  background-size: cover;
-}
-
-#btnDown {
-  background-image: url(../img/down.jpg);
-  background-size: cover;
-}
-
-#btnOK {
-  background-image: url(../img/ok.jpg);
-  background-size: cover;
-}
 
 /* Sección de canales extra */
 
