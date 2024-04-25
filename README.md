@@ -17,7 +17,7 @@ El proyecto tendra los siguiente:
 
 
 - Un mando a distancia virtual con la inclusión de cambiar de canales, ajustar volumen y funciones adicionale.
-<img src="./img/con.jpg" alt="control" width="200">
+<img src="./img/contri.jpg" alt="contri" width="200">
 
 - Cambiar dinámicamente la informacion del canal con la imagen de fondo 
 <p float="left">
