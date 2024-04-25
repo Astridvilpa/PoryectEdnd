@@ -44,7 +44,7 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
 ## 💬 Cosas por realizar
 
--La funcionalidad del volumen.
+- La funcionalidad del volumen.
 - La funcionalidad del mute.
 
 ## 👀 DEMO
@@ -55,3 +55,4 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
 * Astrid Viloria 
 * [GitHub] (https://github.com/Astridvilpa)
+

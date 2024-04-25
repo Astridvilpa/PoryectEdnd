@@ -32,8 +32,8 @@ arrayMandoInf.forEach((channel) => {
   channel.addEventListener("click", (e) => {
     const channelName = e.target.id;
     selectedChannel = channelName;
-    infoDate.style.display = "inline-block";
-    infoChannel.style.display = "inline-block";
+    infoDate.style.display = "flex";
+    infoChannel.style.display = "";
 
     document.getElementById("channelName").innerHTML = channelName;
 
