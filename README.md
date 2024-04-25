@@ -49,7 +49,7 @@ Para el desarrollo del proyecto se utilizarán las siguientes tecnologías:
 
 ## 👀 DEMO
 
-[Interaccion con la Tv ]
+[Interaccion con la Tv ] https://astridvilpa.github.io/PoryectEdnd/
 
 ## ✒️ Autor
 
