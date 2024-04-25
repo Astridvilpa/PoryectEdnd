@@ -89,7 +89,7 @@ const channelImages = {
   "Gol t": "../img/7.gif",
   "Divinity": "../img/8.gif",
   "Telemundo": "../img/9.gif",
-  "channelInfo": "../img/pgm.png",
+  "channelInfo": "../img/.png",
   "Sin Signal": "../img/0.gif",
   "netflix": "../img/netflix.gif",
   "disney": "../img/disney.gif",
