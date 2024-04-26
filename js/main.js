@@ -143,11 +143,9 @@ const cambioCanales = (button) => {
     return; // 
   }
 
-  if (button === "btnVolDown") {
-    canalActual = (canalActual + 1) % 10; // Incrementar el canal actual y asegurarse de que no exceda el límite
-  } else if (button === "btnChDown") {
-    canalActual = (canalActual - 1 + 10) % 10; // Decrementar el canal actual y asegurarse de que no sea negativo
-  }
+ canalActual = (button === "btnVolDown") ? (canalActual === 9 ? 0 : canalActual + 1) : 
+ (button === "btnChDown") ? (canalActual === 0 ? 9 : canalActual - 1) : 
+ canalActual;
 
   const channelName = Object.keys(channelImages)[canalActual];
   infoChannel.innerText = channelName;
